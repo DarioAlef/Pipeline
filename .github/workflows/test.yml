@@ -5,6 +5,7 @@ on:
   push:
   pull_request:
     branches:
+      - main
       - develop
 
 jobs:
@@ -34,3 +35,4 @@ jobs:
         run: |
           pytest -q
 
+#alteração teste para a criação da branch remota develop
